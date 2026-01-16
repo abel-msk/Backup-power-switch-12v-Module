@@ -8,4 +8,4 @@ ESP32-C3 wifi board
 Charge and done charger passed to ESP
 External connector for i2x line and charger status
 
-![3D View](/assets/3dview.png)
+![3D View](/3dview.png)
