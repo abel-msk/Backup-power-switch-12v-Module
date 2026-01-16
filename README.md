@@ -1,4 +1,4 @@
-# Power backup board
+#Power backup board
 
 Board for 12v power switch.  Plain power and battery backup.  Switchng provided by LM393 comparator. Both compared   line are adjustable by potentiometer.
 Equipped with:
