@@ -2887,7 +2887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_TDK_VLS6045EX_VLS6045AF"
+		(property "Footprint" "Inductor_SMD:L_TechFuse_SL0624"
 			(at 178.562 69.85 0)
 			(effects
 				(font
