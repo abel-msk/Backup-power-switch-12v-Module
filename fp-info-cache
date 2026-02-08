@@ -1,4 +1,4 @@
-46775704267812583
+46777502570609892
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -175034,6 +175034,13 @@ MICRO RELAY WRG RJE-SS-105LM
 0
 4
 4
+Relay_THT_Local
+SLA-xxVDC-SL-C
+
+
+0
+5
+5
 Resistor_SMD
 R_0201_0603Metric
 Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
