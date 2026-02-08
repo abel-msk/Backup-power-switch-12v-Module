@@ -2024,6 +2024,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Main signals set\ncloning "
+		(exclude_from_sim no)
+		(at 130.556 146.304 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "bbfc495c-fee6-44d6-a41b-d96a409a5327")
+	)
+	(text "(Optional) SPI and Tx/Tx \nfor ethernet or display\nmodule conncting"
+		(exclude_from_sim no)
+		(at 234.95 99.822 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "e28c23a8-bddb-4c8f-b7d4-2a298276c54a")
+	)
 	(junction
 		(at 128.27 52.07)
 		(diameter 0)
@@ -5598,7 +5620,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Esternal"
+		(property "Value" "External"
 			(at 233.68 109.2199 0)
 			(effects
 				(font

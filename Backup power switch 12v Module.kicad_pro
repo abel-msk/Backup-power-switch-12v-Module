@@ -799,15 +799,15 @@
     ],
     [
       "29f10423-18bd-4fec-9bc6-220db9c2d437",
-      "Current Sensors"
+      "Current Sensors; controller; external int"
     ],
     [
       "d7eb9341-0323-4a7f-8b8d-15dddad37565",
-      "Batary Charger module"
+      "Li-Io 3S Batary Charger module"
     ],
     [
       "ea5c0a6d-347b-4fad-9c57-531997c52dbd",
-      "StepDown Convertor"
+      "Battery voltage level limiter"
     ]
   ],
   "text_variables": {}

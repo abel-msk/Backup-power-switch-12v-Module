@@ -808,6 +808,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Ajust output \nvoltage level "
+		(exclude_from_sim no)
+		(at 180.848 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e61c35b-9952-4622-a7ad-cd6fd478d6f8")
+	)
 	(junction
 		(at 164.846 117.856)
 		(diameter 0)
@@ -821,10 +832,10 @@
 		(uuid "0f2071ee-b54c-4917-943d-54d65b45341e")
 	)
 	(junction
-		(at 194.056 94.488)
+		(at 196.088 94.488)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "45831993-8691-42b2-8198-e82adafc6306")
+		(uuid "2d4b2f65-a465-4ada-8bd6-e4c5ede2348f")
 	)
 	(junction
 		(at 164.846 94.488)
@@ -884,7 +895,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.056 104.648) (xy 194.056 117.856)
+			(xy 196.088 104.648) (xy 196.088 117.856)
 		)
 		(stroke
 			(width 0)
@@ -934,16 +945,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.056 94.488) (xy 197.612 94.488)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39221f83-1130-40f6-a7dd-d476ff1e8e44")
-	)
-	(wire
-		(pts
 			(xy 157.226 94.488) (xy 164.846 94.488)
 		)
 		(stroke
@@ -961,6 +962,16 @@
 			(type default)
 		)
 		(uuid "55268024-fa1a-41f4-823a-6a05a49c75b2")
+	)
+	(wire
+		(pts
+			(xy 196.088 94.488) (xy 197.612 94.488)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56408dec-7521-42a9-9d15-fdfae551fd72")
 	)
 	(wire
 		(pts
@@ -1004,7 +1015,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.324 94.488) (xy 194.056 94.488)
+			(xy 179.324 94.488) (xy 196.088 94.488)
 		)
 		(stroke
 			(width 0)
@@ -1024,7 +1035,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.324 117.856) (xy 194.056 117.856)
+			(xy 179.324 117.856) (xy 196.088 117.856)
 		)
 		(stroke
 			(width 0)
@@ -1034,7 +1045,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.056 99.568) (xy 194.056 94.488)
+			(xy 196.088 99.568) (xy 196.088 94.488)
 		)
 		(stroke
 			(width 0)
@@ -1463,7 +1474,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 194.056 102.108 180)
+		(at 196.088 102.108 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1472,7 +1483,7 @@
 		(fields_autoplaced yes)
 		(uuid "4082b789-1bfc-4288-922c-78f2395025f1")
 		(property "Reference" "C12"
-			(at 197.612 100.8315 0)
+			(at 199.644 100.8315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1481,7 +1492,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 197.612 103.3715 0)
+			(at 199.644 103.3715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1490,7 +1501,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 194.056 102.108 0)
+			(at 196.088 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1499,7 +1510,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.056 102.108 0)
+			(at 196.088 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1508,7 +1519,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 194.056 102.108 0)
+			(at 196.088 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1517,7 +1528,7 @@
 			)
 		)
 		(property "descr" ""
-			(at 194.056 102.108 0)
+			(at 196.088 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
