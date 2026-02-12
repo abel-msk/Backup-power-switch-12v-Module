@@ -3128,7 +3128,7 @@
 	)
 	(rectangle
 		(start 173.736 70.612)
-		(end 272.288 150.622)
+		(end 274.574 150.622)
 		(stroke
 			(width 0)
 			(type default)
@@ -7209,7 +7209,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BAT IN"
+		(property "Value" "BAT/PWR IN"
 			(at 39.624 48.2599 0)
 			(effects
 				(font
@@ -7452,7 +7452,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -7462,7 +7461,7 @@
 		)
 		(uuid "29f10423-18bd-4fec-9bc6-220db9c2d437")
 		(property "Sheetname" "Current Sensors; controller; external int"
-			(at 97.79 70.8054 0)
+			(at 90.678 70.612 0)
 			(effects
 				(font
 					(size 2 2)
@@ -7564,7 +7563,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -7574,7 +7572,7 @@
 		)
 		(uuid "d7eb9341-0323-4a7f-8b8d-15dddad37565")
 		(property "Sheetname" "Li-Io 3S Batary Charger module"
-			(at 41.91 70.8054 0)
+			(at 36.068 70.358 0)
 			(effects
 				(font
 					(size 2 2)
