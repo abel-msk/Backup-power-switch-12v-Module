@@ -1,0 +1,1036 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "83e990da-139e-442f-ac1a-6594477bb15f")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Barrel_Jack_Switch"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Barrel_Jack_Switch"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC Barrel Jack with an internal switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DC power barrel jack connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "BarrelJack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Barrel_Jack_Switch_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.286) (xy 1.905 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Barrel_Jack_Switch_1_1"
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 91.186 98.552)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28e5610c-7c47-484a-8a6a-7fd5e9ccb2c0")
+	)
+	(junction
+		(at 93.98 71.628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b5329bb-977d-4b6c-b824-c47cf29d4976")
+	)
+	(junction
+		(at 91.186 54.864)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "427b8e64-fe24-4fde-bdb8-a0426d021187")
+	)
+	(junction
+		(at 93.98 49.784)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8751f021-1ca6-4af5-a632-81cdb09126fe")
+	)
+	(junction
+		(at 91.186 101.092)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9f097a0-b82f-4d52-8a86-b11434bf973f")
+	)
+	(junction
+		(at 91.186 74.168)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7ee7493-6423-4171-8a3c-8b9b2a4e6b08")
+	)
+	(junction
+		(at 93.98 96.012)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1b9254e-934e-48d4-bc17-a74c4a0454c3")
+	)
+	(junction
+		(at 91.186 76.708)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f78b4e66-952e-4bd0-98df-fd5b962004a2")
+	)
+	(wire
+		(pts
+			(xy 93.98 96.012) (xy 93.98 116.332)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05a60a4f-5e4d-4bef-9a3e-972825224773")
+	)
+	(wire
+		(pts
+			(xy 91.186 98.552) (xy 91.186 101.092)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10aa3c48-9cd0-4ba7-9e69-d856d68a7eac")
+	)
+	(wire
+		(pts
+			(xy 88.9 98.552) (xy 91.186 98.552)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29548eed-267c-468b-8375-cadd8a36b9b3")
+	)
+	(wire
+		(pts
+			(xy 91.186 54.864) (xy 89.154 54.864)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c82ba8-ad54-404e-92dd-480fa8f8ff0a")
+	)
+	(wire
+		(pts
+			(xy 91.186 54.864) (xy 91.186 52.324)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3641887c-d46b-4bf1-a826-9e27f3d97d49")
+	)
+	(wire
+		(pts
+			(xy 88.9 96.012) (xy 93.98 96.012)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd0ad53-029a-482e-9ed0-b86620f1f562")
+	)
+	(wire
+		(pts
+			(xy 88.9 101.092) (xy 91.186 101.092)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c3fa23-cfd3-4333-8117-9a49ffca06b8")
+	)
+	(wire
+		(pts
+			(xy 93.98 96.012) (xy 93.98 71.628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54545276-79eb-44fb-ba31-e0e3491e133f")
+	)
+	(wire
+		(pts
+			(xy 109.22 41.402) (xy 93.98 41.402)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6156b8e7-60e5-490f-b045-5f16f19284ea")
+	)
+	(wire
+		(pts
+			(xy 93.98 41.402) (xy 93.98 49.784)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61b42e18-05e1-4074-9025-827e7be6abb5")
+	)
+	(wire
+		(pts
+			(xy 91.186 74.168) (xy 91.186 54.864)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6306575d-f2f2-484c-9b5c-5355f8d7e5f5")
+	)
+	(wire
+		(pts
+			(xy 93.98 116.332) (xy 86.614 116.332)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d5483f-935e-42b1-9677-d2116978dbee")
+	)
+	(wire
+		(pts
+			(xy 91.186 52.324) (xy 89.154 52.324)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a8db672-2b28-4ac9-8ab8-a4313992f5cb")
+	)
+	(wire
+		(pts
+			(xy 86.614 113.792) (xy 91.186 113.792)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f5d2446-0399-4489-89c5-c38cb5551df7")
+	)
+	(wire
+		(pts
+			(xy 91.186 74.168) (xy 89.154 74.168)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da8ffe0-c913-4176-9b96-d607f542aa6f")
+	)
+	(wire
+		(pts
+			(xy 93.98 71.628) (xy 89.154 71.628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88042034-a23b-4f2a-8b09-12d07229e5b6")
+	)
+	(wire
+		(pts
+			(xy 93.98 49.784) (xy 89.154 49.784)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95720c89-1f1d-416f-bdfe-f17bf1c3ca77")
+	)
+	(wire
+		(pts
+			(xy 93.98 49.784) (xy 93.98 71.628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac5e008-a7f3-4d3d-b45e-5654ab232d46")
+	)
+	(wire
+		(pts
+			(xy 91.186 98.552) (xy 91.186 76.708)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb0780f7-4a4d-4512-8eb8-1c4402d2e57e")
+	)
+	(wire
+		(pts
+			(xy 91.186 76.708) (xy 89.154 76.708)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b87864-9ab1-4c58-afb1-a0997d0d683e")
+	)
+	(wire
+		(pts
+			(xy 91.186 76.708) (xy 91.186 74.168)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfbc191c-f3a8-4adb-a0c5-2868b36e84bb")
+	)
+	(wire
+		(pts
+			(xy 91.186 101.092) (xy 104.394 101.092)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaae0ac0-9d1e-4a6a-92f7-6eed9ee444a4")
+	)
+	(wire
+		(pts
+			(xy 91.186 113.792) (xy 91.186 101.092)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc0e2c85-84d1-4ea3-a7b5-315f77e1baf3")
+	)
+	(hierarchical_label "COMMON OUT 12 +"
+		(shape input)
+		(at 109.22 41.402 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30857d82-1092-45ac-9f6a-0c93021c7c47")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 104.394 101.092 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bbc70c8-869c-4d02-8a66-86815c13abf0")
+	)
+	(symbol
+		(lib_id "Connector:Barrel_Jack_Switch")
+		(at 81.28 98.552 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "555f53c3-5598-4309-a1e7-83db475b0f46")
+		(property "Reference" "J8"
+			(at 81.28 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Barrel_Jack_MountingPin"
+			(at 81.28 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
+			(at 82.55 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack with an internal switch"
+			(at 81.28 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "descr" ""
+			(at 81.28 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b7757c0-d2d3-45d9-b66f-ca6d16153837")
+		)
+		(pin "3"
+			(uuid "14fd21af-6a56-4723-90f3-5a5dc38a5d41")
+		)
+		(pin "2"
+			(uuid "60aaa585-1298-4086-96ac-187574ec48e0")
+		)
+		(instances
+			(project "Backup power switch 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/e8f95827-53c2-4589-9ea2-c336ceed0e74"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 81.534 113.792 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c154bfa-cadc-40b8-b9b7-b160c0d38e42")
+		(property "Reference" "J3"
+			(at 82.296 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWR OUT"
+			(at 77.978 119.634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Local:ScrewTerminal_KF7.62_2P"
+			(at 81.534 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.534 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 81.534 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "descr" ""
+			(at 81.534 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fada863a-3d60-49fb-85ae-0b9f9acdbdc6")
+		)
+		(pin "2"
+			(uuid "c0a31ba1-a6fa-415d-b8cc-93189d658e28")
+		)
+		(instances
+			(project "Backup power switch 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/e8f95827-53c2-4589-9ea2-c336ceed0e74"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Barrel_Jack_Switch")
+		(at 81.534 74.168 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7212c0f-9965-4b86-9158-37853378020a")
+		(property "Reference" "J6"
+			(at 81.534 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Barrel_Jack_MountingPin"
+			(at 81.534 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
+			(at 82.804 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.804 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack with an internal switch"
+			(at 81.534 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "descr" ""
+			(at 81.534 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d441645e-5989-425c-95d3-e3edf26e5ba9")
+		)
+		(pin "3"
+			(uuid "1ab69ddd-19f5-45e9-af73-162a5a26c640")
+		)
+		(pin "2"
+			(uuid "2c4f65d5-75ca-4c82-9b1b-c4c02ff273ca")
+		)
+		(instances
+			(project "Backup power switch 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/e8f95827-53c2-4589-9ea2-c336ceed0e74"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Barrel_Jack_Switch")
+		(at 81.534 52.324 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c83f1fd3-82eb-4c22-a5d9-b800092f36a9")
+		(property "Reference" "J4"
+			(at 81.534 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Barrel_Jack_MountingPin"
+			(at 81.534 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
+			(at 82.804 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.804 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack with an internal switch"
+			(at 81.534 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "descr" ""
+			(at 81.534 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13c20af9-ffe9-437e-b98c-46aa91fdcb33")
+		)
+		(pin "3"
+			(uuid "06e1ab4a-94ec-44c2-93ff-25bc11f9c6b7")
+		)
+		(pin "2"
+			(uuid "f361b229-815c-47ed-a1bf-c95586791a71")
+		)
+		(instances
+			(project ""
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/e8f95827-53c2-4589-9ea2-c336ceed0e74"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

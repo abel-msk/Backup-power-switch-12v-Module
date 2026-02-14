@@ -2239,7 +2239,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 69.85) (xy 83.82 69.85)
+			(xy 63.5 69.85) (xy 83.82 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2320,7 +2320,7 @@
 	)
 	(hierarchical_label "PWR OUT 12 +"
 		(shape input)
-		(at 64.77 69.85 180)
+		(at 63.5 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)

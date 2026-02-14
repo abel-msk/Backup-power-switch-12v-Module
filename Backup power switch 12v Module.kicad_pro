@@ -649,13 +649,23 @@
       },
       {
         "clearance": 0.3,
-        "name": " GNDPWR",
+        "name": "GNDPWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 8.0,
         "via_drill": 0.4
+      },
+      {
+        "clearance": 0.5,
+        "name": "HIGH_POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 4.0,
+        "via_diameter": 2.0,
+        "via_drill": 1.5
       }
     ],
     "meta": {
@@ -663,7 +673,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "HIGH_POWER",
+        "pattern": "COMMON OUT 12 +"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -808,6 +823,10 @@
     [
       "ea5c0a6d-347b-4fad-9c57-531997c52dbd",
       "Battery voltage level limiter"
+    ],
+    [
+      "e8f95827-53c2-4589-9ea2-c336ceed0e74",
+      "Power out connectors"
     ]
   ],
   "text_variables": {}

@@ -283,196 +283,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Screw_Terminal_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Screw_Terminal_01x04"
 			(pin_names
 				(offset 1.016)
@@ -2333,6 +2143,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:Heatsink"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HS"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Heatsink"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.3048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.3048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Heatsink"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "thermal heat temperature"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Heatsink_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Heatsink_0_1"
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
+						(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
+						(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
+						(xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_Transistor_MOSFET_AKL:BSS138"
 			(pin_names
 				(hide yes)
@@ -3380,12 +3289,6 @@
 		(uuid "83c48d6e-6404-4659-9fd9-ec9fa046af8d")
 	)
 	(junction
-		(at 247.142 120.142)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e5f561e-d5f2-49f6-a09b-13bb2362731e")
-	)
-	(junction
 		(at 143.002 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3420,6 +3323,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d22694ee-ae63-45e9-ad5f-add7ad3361c7")
+	)
+	(junction
+		(at 233.68 120.142)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee1e5531-5705-4bd2-90a8-a32e3c8dc12b")
 	)
 	(no_connect
 		(at 111.76 161.29)
@@ -3485,16 +3394,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.142 122.682) (xy 249.682 122.682)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a1c94f4-5a91-4106-a97b-dd247f6c136f")
-	)
-	(wire
-		(pts
 			(xy 97.79 88.392) (xy 82.55 88.392)
 		)
 		(stroke
@@ -3522,6 +3421,16 @@
 			(type default)
 		)
 		(uuid "236e6289-42f4-4f5e-a156-425a6824371b")
+	)
+	(wire
+		(pts
+			(xy 247.396 135.382) (xy 247.396 140.462)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237581cf-ee30-422d-825e-3103aec5a8a4")
 	)
 	(wire
 		(pts
@@ -3735,16 +3644,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.142 120.142) (xy 249.682 120.142)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "521bbcb4-4273-418f-8338-d12e2a9b5dbb")
-	)
-	(wire
-		(pts
 			(xy 223.266 58.42) (xy 231.394 58.42)
 		)
 		(stroke
@@ -3815,16 +3714,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.142 122.682) (xy 247.142 140.462)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b6e0fa4-b2da-4059-acfa-9a27c10ad949")
-	)
-	(wire
-		(pts
 			(xy 218.186 76.962) (xy 223.266 76.962)
 		)
 		(stroke
@@ -3863,16 +3752,6 @@
 		)
 		(uuid "5d4f03bc-0ab6-4b43-ba76-5536a82a1c77")
 	)
-	(wire
-		(pts
-			(xy 215.646 140.462) (xy 247.142 140.462)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "612464a5-f645-4bdd-af91-2d894dc55110")
-	)
 	(bus
 		(pts
 			(xy 202.946 90.932) (xy 215.646 90.932)
@@ -3885,7 +3764,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.142 113.792) (xy 247.142 120.142)
+			(xy 233.68 108.966) (xy 233.68 120.142)
 		)
 		(stroke
 			(width 0)
@@ -3992,6 +3871,16 @@
 			(type default)
 		)
 		(uuid "70d7b8f4-d4a6-4698-b2e7-caaf3325859c")
+	)
+	(wire
+		(pts
+			(xy 233.68 120.142) (xy 236.474 120.142)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ba80bf7-7fed-4e29-8bce-7c9bf531071e")
 	)
 	(bus
 		(pts
@@ -4255,7 +4144,7 @@
 	)
 	(wire
 		(pts
-			(xy 225.806 120.142) (xy 247.142 120.142)
+			(xy 225.806 120.142) (xy 233.68 120.142)
 		)
 		(stroke
 			(width 0)
@@ -4335,6 +4224,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.396 140.462) (xy 215.646 140.462)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e41d8b70-d60c-4e1c-90ab-36926343be4e")
+	)
+	(wire
+		(pts
 			(xy 107.95 43.18) (xy 107.95 71.882)
 		)
 		(stroke
@@ -4352,16 +4251,6 @@
 			(type default)
 		)
 		(uuid "e73cd3e2-36a3-4c5f-9c82-8b955afe635a")
-	)
-	(wire
-		(pts
-			(xy 215.646 135.382) (xy 215.646 140.462)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb27b1e4-a352-4e65-889c-24e94e5fd826")
 	)
 	(bus
 		(pts
@@ -4385,13 +4274,23 @@
 	)
 	(wire
 		(pts
-			(xy 247.142 113.792) (xy 250.952 113.792)
+			(xy 233.68 108.966) (xy 251.46 108.966)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eebeef1e-c439-466a-ac19-f2587980650c")
+	)
+	(wire
+		(pts
+			(xy 215.646 135.382) (xy 215.646 140.462)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f66164b7-ca53-44dd-9058-ed18520aacd3")
 	)
 	(wire
 		(pts
@@ -4823,7 +4722,7 @@
 	)
 	(global_label "COMMON OUT 12 +"
 		(shape output)
-		(at 250.952 113.792 0)
+		(at 251.46 108.966 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4833,7 +4732,7 @@
 		)
 		(uuid "6a45de2d-9ea7-43f7-a5b4-d0e51e010560")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.6243 113.792 0)
+			(at 273.1323 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4922,6 +4821,7 @@
 		(uuid "d0f73c46-3af8-40eb-a9bc-6c1521bab291")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 181.2737 79.502 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5805,7 +5705,7 @@
 		(fields_autoplaced yes)
 		(uuid "31a3b3ed-6813-49a8-86ac-c2320b99087c")
 		(property "Reference" "D9"
-			(at 237.236 78.2319 90)
+			(at 237.49 78.2319 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5813,8 +5713,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SR10100"
-			(at 237.236 80.7719 90)
+		(property "Value" "10A10"
+			(at 237.49 80.7719 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5966,6 +5866,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Heatsink")
+		(at 209.55 79.502 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54ba102c-dcbb-4717-bf58-5c3d8c8eed3c")
+		(property "Reference" "HS1"
+			(at 210.82 78.2446 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Heatsink"
+			(at 210.82 80.7846 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Heatsink:Heatsink_Stonecold_HS-S01_13.21x6.35mm"
+			(at 209.55 79.1972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 79.1972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink"
+			(at 209.55 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "descr" ""
+			(at 209.55 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105"
+					(reference "HS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 87.63 129.54 0)
 		(mirror y)
@@ -6061,7 +6036,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 97.917 137.795 0)
+			(at 97.917 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6246,84 +6221,6 @@
 			(project "Backup power switch 12v Module"
 				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 254.762 122.682 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c154bfa-cadc-40b8-b9b7-b160c0d38e42")
-		(property "Reference" "J3"
-			(at 257.937 122.6821 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PWR OUT"
-			(at 257.937 120.1421 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Local:ScrewTerminal_KF7.62_2P"
-			(at 254.762 122.682 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254.762 122.682 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 254.762 122.682 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "descr" ""
-			(at 254.762 122.682 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fada863a-3d60-49fb-85ae-0b9f9acdbdc6")
-		)
-		(pin "2"
-			(uuid "c0a31ba1-a6fa-415d-b8cc-93189d658e28")
-		)
-		(instances
-			(project ""
-				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6981,7 +6878,7 @@
 			)
 		)
 		(property "Value" "SRD-12VDC-SL-C"
-			(at 227.076 117.602 0)
+			(at 205.74 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7633,6 +7530,67 @@
 			(project "Backup power switch 12v Module"
 				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 236.474 115.062)
+		(size 33.528 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 249 253 255 1.0000)
+		)
+		(uuid "e8f95827-53c2-4589-9ea2-c336ceed0e74")
+		(property "Sheetname" "Power out connectors"
+			(at 249.936 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pwr_out.kicad_sch"
+			(at 236.474 135.9666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 247.396 135.382 270)
+			(uuid "f577fe1d-471e-4367-8651-6c770302c32e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "COMMON OUT 12 +" input
+			(at 236.474 120.142 180)
+			(uuid "aba4c5fd-faf9-4542-9296-3fbd1b042568")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Backup power switch 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105"
+					(page "5")
 				)
 			)
 		)
