@@ -658,7 +658,7 @@
         "via_drill": 0.4
       },
       {
-        "clearance": 0.5,
+        "clearance": 0.7,
         "name": "HIGH_POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
@@ -814,15 +814,11 @@
     ],
     [
       "29f10423-18bd-4fec-9bc6-220db9c2d437",
-      "Current Sensors; controller; external int"
+      "INPUT; Current Sensors;"
     ],
     [
       "d7eb9341-0323-4a7f-8b8d-15dddad37565",
       "Li-Io 3S Batary Charger module"
-    ],
-    [
-      "ea5c0a6d-347b-4fad-9c57-531997c52dbd",
-      "Battery voltage level limiter"
     ],
     [
       "e8f95827-53c2-4589-9ea2-c336ceed0e74",
