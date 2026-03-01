@@ -2113,7 +2113,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.756 82.042) (xy 79.756 88.646)
+			(xy 79.756 79.756) (xy 79.756 88.646)
 		)
 		(stroke
 			(width 0)
@@ -2283,7 +2283,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.756 69.596) (xy 79.756 74.422)
+			(xy 79.756 69.596) (xy 79.756 72.136)
 		)
 		(stroke
 			(width 0)
@@ -3184,7 +3184,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 79.756 78.232 0)
+		(at 79.756 75.946 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3193,7 +3193,7 @@
 		(fields_autoplaced yes)
 		(uuid "3761c99a-d93c-443d-9f2f-c89c0b35a7b7")
 		(property "Reference" "R2"
-			(at 81.661 76.9619 0)
+			(at 81.661 74.6759 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3202,7 +3202,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 81.661 79.5019 0)
+			(at 81.661 77.2159 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3211,7 +3211,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 77.978 78.232 90)
+			(at 77.978 75.946 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3220,7 +3220,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 79.756 78.232 0)
+			(at 79.756 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,7 +3229,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 79.756 78.232 0)
+			(at 79.756 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,7 +3237,7 @@
 			)
 		)
 		(property "descr" ""
-			(at 79.756 78.232 0)
+			(at 79.756 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
