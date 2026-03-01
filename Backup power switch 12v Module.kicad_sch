@@ -3394,7 +3394,7 @@
 	)
 	(bus
 		(pts
-			(xy 69.342 57.404) (xy 121.412 57.404)
+			(xy 70.866 57.404) (xy 121.412 57.404)
 		)
 		(stroke
 			(width 0)
@@ -3924,16 +3924,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.842 94.996) (xy 136.906 94.996)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7ac544c-3fa9-41a3-8140-840f1588177e")
-	)
-	(wire
-		(pts
 			(xy 213.868 77.978) (xy 214.376 77.978)
 		)
 		(stroke
@@ -4364,7 +4354,7 @@
 	)
 	(bus
 		(pts
-			(xy 69.342 57.404) (xy 69.342 75.946)
+			(xy 70.866 57.404) (xy 70.866 75.946)
 		)
 		(stroke
 			(width 0)
@@ -5082,29 +5072,6 @@
 		(uuid "cd0d580a-0546-4d6c-b6b8-e2daaaf2ef90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 50.1808 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COMMON OUT 12 +"
-		(shape input)
-		(at 136.906 94.996 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d0f73c46-3af8-40eb-a9bc-6c1521bab291")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.5783 94.996 0)
-			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7468,7 +7435,7 @@
 		(dnp no)
 		(uuid "dbcde9a5-e20b-42aa-98ea-2f758de6eb60")
 		(property "Reference" "R13"
-			(at 185.166 96.266 90)
+			(at 185.928 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7476,7 +7443,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 187.198 96.012 90)
+			(at 185.674 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7926,16 +7893,6 @@
 				(justify left top)
 			)
 		)
-		(pin "COMMON OUT 12 +" input
-			(at 132.842 94.996 0)
-			(uuid "951046ee-d0a2-4c1a-847d-04483c7ae68d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "PWR IN 12 +" input
 			(at 111.76 75.946 90)
 			(uuid "11239540-3f1a-4b52-8ab8-c9cd033273d1")
@@ -8037,9 +7994,19 @@
 				(justify left top)
 			)
 		)
+		(pin "PWR OUT 12 +" input
+			(at 70.866 75.946 90)
+			(uuid "30ccf687-ab49-42f2-bd4a-0475adf1630d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(pin "BAT_CHRG 12 +" output
 			(at 62.738 75.946 90)
-			(uuid "3e89bb26-9bd5-448a-af7a-ddb4cf244dd8")
+			(uuid "b88edad5-4774-4d63-a859-518a60194e14")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8047,19 +8014,9 @@
 				(justify right)
 			)
 		)
-		(pin "PWR OUT 12 +" input
-			(at 69.342 75.946 90)
-			(uuid "6ac68757-c951-47a1-aad5-9fb019c9bd59")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CHRG_SIG" output
+		(pin "CHRG_SIG" input
 			(at 51.054 97.536 270)
-			(uuid "343d650f-79e5-49bb-86a2-38adb02cae80")
+			(uuid "c54f341b-af1d-4bfd-a7bc-46c49522e406")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8067,9 +8024,9 @@
 				(justify left)
 			)
 		)
-		(pin "DONE_SIG" output
+		(pin "DONE_SIG" input
 			(at 54.61 97.536 270)
-			(uuid "4ecca60e-6a75-4d01-a1f5-47c81cf5f90a")
+			(uuid "37113c7a-e174-4f43-8368-65766872b9c5")
 			(effects
 				(font
 					(size 1.27 1.27)

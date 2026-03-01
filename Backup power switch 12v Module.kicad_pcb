@@ -2304,7 +2304,7 @@
 		(descr "Through hole straight pin header, 2x02, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x02 2.54mm double row")
 		(property "Reference" "J9"
-			(at 1.27 -2.380001 0)
+			(at 5.461 1.397 0)
 			(layer "F.SilkS")
 			(uuid "f6212c9e-97b5-45f7-b5f0-0e31ca7dc283")
 			(effects
@@ -16695,8 +16695,8 @@
 		(uuid "6c04860a-ae5d-4cae-9696-102af2350afd")
 	)
 	(gr_line
-		(start 148.59 100.203)
-		(end 155.702 100.203)
+		(start 144.653 99.822)
+		(end 151.765 99.822)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -16815,7 +16815,7 @@
 		)
 	)
 	(gr_text "Common"
-		(at 149.1488 102.108 0)
+		(at 144.526 101.727 0)
 		(layer "F.SilkS")
 		(uuid "516f2cbc-82d4-4428-803b-bc1cd50f72f1")
 		(effects
@@ -17114,7 +17114,7 @@
 		)
 	)
 	(gr_text "Battery"
-		(at 149.1488 99.568 0)
+		(at 144.653 98.933 0)
 		(layer "F.SilkS")
 		(uuid "db46419a-168d-4c17-bfbc-faf9557b7ea8")
 		(effects

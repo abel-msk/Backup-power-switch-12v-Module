@@ -2761,17 +2761,6 @@
 		)
 		(uuid "314143d6-267c-4516-8d13-94b29d7fe4b1")
 	)
-	(hierarchical_label "CHRG_SIG"
-		(shape input)
-		(at 56.642 88.646 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0aed6493-675e-44bf-a090-ee8715b6c155")
-	)
 	(hierarchical_label "BAT_CHRG 12 +"
 		(shape output)
 		(at 241.808 69.596 0)
@@ -2782,6 +2771,17 @@
 			(justify left)
 		)
 		(uuid "24573171-35ad-4362-833f-bb4c21b16cc4")
+	)
+	(hierarchical_label "DONE_SIG"
+		(shape input)
+		(at 56.642 103.886 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28b0534e-2bd1-4613-abcf-37a503019f01")
 	)
 	(hierarchical_label "PWR OUT 12 +"
 		(shape input)
@@ -2794,16 +2794,16 @@
 		)
 		(uuid "a8bb0d88-b467-4d71-944d-c8804a073d66")
 	)
-	(hierarchical_label "DONE_SIG"
+	(hierarchical_label "CHRG_SIG"
 		(shape input)
-		(at 56.642 103.886 180)
+		(at 56.642 88.646 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c2cd61bd-03a1-476e-aaf4-843203de74a6")
+		(uuid "f82a1b2c-ac04-4533-9bee-3cc33325f5f9")
 	)
 	(symbol
 		(lib_id "Device:R")
