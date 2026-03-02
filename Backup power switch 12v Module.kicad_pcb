@@ -1369,7 +1369,7 @@
 			)
 		)
 		(property "Value" "Heatsink"
-			(at 0 -1 0)
+			(at -0.127 -1.1938 0)
 			(layer "F.Fab")
 			(uuid "15623370-f1e7-49ba-b6df-9a80475eaa17")
 			(effects
@@ -2010,7 +2010,7 @@
 			(uuid "fee889f9-9cd3-49e0-ab9e-e67066165ab0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 0)
+			(at 1.524 0.762 0)
 			(layer "F.Fab")
 			(uuid "d3a55339-44d1-431d-9cee-b5dd11b6e7e9")
 			(effects
@@ -4241,7 +4241,7 @@
 			)
 		)
 		(property "Value" "SS26"
-			(at 0.254 -2.286 0)
+			(at -0.127 2.286 0)
 			(layer "F.Fab")
 			(uuid "1ffaad11-93c4-4180-a9c3-692aaa8bf33a")
 			(effects
@@ -5008,7 +5008,7 @@
 			(uuid "9fbf44af-9cbe-4b10-9b93-f29775c1c4b3")
 		)
 		(fp_text user "REF**"
-			(at 0 0 0)
+			(at -2.032 -7.3152 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "f67ec642-d34f-430d-bfd4-c78165ee7819")
@@ -5435,7 +5435,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 0 1.778 270)
+			(at -2.921 0 0)
 			(layer "F.Fab")
 			(uuid "cff7d9c4-fcca-4c8e-a55e-3cba8266a5d0")
 			(effects
@@ -6967,7 +6967,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 2.794 0 0)
+			(at 3.1562 -0.1524 0)
 			(layer "F.Fab")
 			(uuid "4be60a08-271f-4411-bb43-ec13d67473a0")
 			(effects
@@ -7180,7 +7180,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at -3.048 -0.254 180)
+			(at 2.413 -0.0188 180)
 			(layer "F.Fab")
 			(uuid "e12ff812-9a82-4ed8-993e-6b202b9100a5")
 			(effects
@@ -7515,7 +7515,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 2.81 0 0)
+			(at -3.048 0.127 0)
 			(layer "F.Fab")
 			(uuid "e72d6adc-7c84-4d70-ac85-746092ddef3d")
 			(effects
@@ -7727,7 +7727,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0.254 -1.778 0)
+			(at 3.556 0 0)
 			(layer "F.Fab")
 			(uuid "91e160ab-6856-42cc-a655-8bf376a5f6b5")
 			(effects
@@ -7830,8 +7830,9 @@
 			(uuid "0fcc9c5e-03f0-4c7c-8e70-f37a5c918745")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
 				)
 			)
 		)
@@ -8096,7 +8097,7 @@
 			)
 		)
 		(property "Value" "0,002R"
-			(at -2.032 -2.54 0)
+			(at -0.508 -2.413 0)
 			(layer "F.Fab")
 			(uuid "e4d8ba62-6845-47c2-9d82-28038b67b74d")
 			(effects
@@ -8308,7 +8309,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack_MountingPin"
-			(at -6.2 -5.5 0)
+			(at -5.9718 -5.715 0)
 			(layer "F.Fab")
 			(uuid "b1580f6c-05ec-47b0-9d7c-3f2e61c28305")
 			(effects
@@ -8655,7 +8656,7 @@
 			(uuid "8b5d09d1-5b29-4fcf-8e76-e2ed283efbea")
 		)
 		(pad "2" thru_hole roundrect
-			(at -6 0 180)
+			(at -6 -0.726 180)
 			(size 3 3.5)
 			(drill oval 1 3)
 			(layers "*.Cu" "*.Mask")
@@ -10610,7 +10611,7 @@
 			(uuid "acd945fb-0c46-49fc-ac06-6468f0361b81")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
+			(at 2.54 -2.413 180)
 			(layer "F.Fab")
 			(uuid "abc5fe96-8f24-4d42-bc93-02aac8be06b3")
 			(effects
@@ -11013,7 +11014,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 0 -1.778 270)
+			(at -2.921 -0.889 0)
 			(layer "F.Fab")
 			(uuid "5482a5de-8ee5-44a5-82c4-7f70fff13af6")
 			(effects
@@ -13445,7 +13446,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 2.286 270)
+			(at -3.302 0.127 0)
 			(layer "F.Fab")
 			(uuid "edf60ac5-347d-49c3-a67c-8a0a05c482f9")
 			(effects
@@ -13657,7 +13658,7 @@
 			)
 		)
 		(property "Value" "1N4007W (A7)"
-			(at -3.556 -0.254 180)
+			(at -3.048 1.397 180)
 			(layer "F.Fab")
 			(uuid "a876dfd5-f6c4-432c-a59b-6abee0ad8a17")
 			(effects
@@ -13940,7 +13941,7 @@
 			)
 		)
 		(property "Value" "120 (for 1A)"
-			(at 0 2.63 90)
+			(at 4.826 3.302 180)
 			(layer "F.Fab")
 			(uuid "8589d38d-65f2-4b16-baf4-0d00f6810066")
 			(effects
@@ -15959,7 +15960,7 @@
 			)
 		)
 		(property "Value" "MURF2060CT"
-			(at -3.81 -0.6604 90)
+			(at -2.4384 2.4384 180)
 			(layer "F.Fab")
 			(uuid "ee3ee88e-7791-4300-ae46-a0ab287d1586")
 			(effects
