@@ -301,6 +301,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -503,6 +645,269 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_Transistor_MOSFET_AKL:IRFR5305"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IRFR5305"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:TO-252-2"
+				(at 5.08 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/03738c7efe85777e48cd9302a286f6fb/irfr5305pbf.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TO-252 P-MOSFET enchancement mode transistor, 55V, 31A, 110W, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "enchancement mosfet pmosfet p-mosfet pmos p-mos emos emosfet IRFR5305"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IRFR5305_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -1.905) (xy 0.254 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy 0.762 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -0.508) (xy 0.762 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 2.54 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.286) (xy 0.762 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 -0.381) (xy 1.27 0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IRFR5305_1_1"
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -1033,6 +1438,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "BAT IN Line"
+		(exclude_from_sim no)
+		(at 96.774 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4c855b6d-67f6-44aa-8541-9edc180afd21")
+	)
+	(text "PWR IN Line"
+		(exclude_from_sim no)
+		(at 97.028 55.626 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a03059ed-aa8c-4ed9-86ad-8a53bb683fbf")
+	)
 	(junction
 		(at 130.556 114.554)
 		(diameter 0)
@@ -1064,6 +1489,12 @@
 		(uuid "40d5fa5a-c027-44a4-a5ec-607f0fa5274d")
 	)
 	(junction
+		(at 89.662 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41c327ef-858a-4d88-9b76-59bb197774a7")
+	)
+	(junction
 		(at 163.322 85.344)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1088,22 +1519,10 @@
 		(uuid "5a6b87fe-a8a5-4806-a69c-bb0f43ba345c")
 	)
 	(junction
-		(at 96.52 61.976)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a4d2604-660b-473d-8de7-5bc414f55599")
-	)
-	(junction
 		(at 173.482 85.344)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b51a181-70ff-4a59-9a37-655de6d55cfd")
-	)
-	(junction
-		(at 105.918 99.314)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a824ae0-487c-4d90-9e01-9a5425da8ed5")
 	)
 	(junction
 		(at 149.352 99.314)
@@ -1130,16 +1549,38 @@
 		(uuid "9077bb9c-0800-47f0-9acb-a6c225c8695c")
 	)
 	(junction
+		(at 88.646 80.772)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa03ac07-5286-4f5a-8289-c3cc15603192")
+	)
+	(junction
 		(at 146.812 96.774)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2dca151-514b-4cd5-941f-d996df32dc60")
 	)
 	(junction
+		(at 93.726 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d409376b-9572-48d1-9b9d-a342e7c1401c")
+	)
+	(junction
 		(at 210.82 99.314)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbcb490a-b56a-43d8-97f6-c81a33b71735")
+	)
+	(wire
+		(pts
+			(xy 93.726 62.23) (xy 93.726 78.232)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0345e8bc-a98b-43f6-86d1-a7671889df31")
 	)
 	(wire
 		(pts
@@ -1153,6 +1594,26 @@
 	)
 	(wire
 		(pts
+			(xy 88.646 90.678) (xy 90.932 90.678)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d5402c-d06b-4538-9730-9b53b3ea66b8")
+	)
+	(wire
+		(pts
+			(xy 88.646 80.772) (xy 88.646 81.788)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d8d1eb-59ee-4fba-902e-a2ae6e2e115b")
+	)
+	(wire
+		(pts
 			(xy 130.556 106.934) (xy 130.556 114.554)
 		)
 		(stroke
@@ -1163,7 +1624,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 56.896) (xy 96.52 56.896)
+			(xy 86.868 59.69) (xy 89.662 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1183,16 +1644,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 54.356) (xy 105.918 54.356)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19269514-5d0c-409d-a7cb-3dce40733071")
-	)
-	(wire
-		(pts
 			(xy 155.702 96.774) (xy 178.562 96.774)
 		)
 		(stroke
@@ -1200,6 +1651,26 @@
 			(type default)
 		)
 		(uuid "1df7d3c3-7e33-4378-9cd1-99ef7c9e9d05")
+	)
+	(wire
+		(pts
+			(xy 108.204 80.772) (xy 111.76 80.772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f127321-16d0-47fa-9030-c4e0be5dfe89")
+	)
+	(wire
+		(pts
+			(xy 111.76 80.772) (xy 111.76 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33cdfb51-56fd-4486-95b9-95159b8159d4")
 	)
 	(wire
 		(pts
@@ -1243,13 +1714,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 59.436) (xy 210.82 59.436)
+			(xy 97.282 97.028) (xy 97.282 99.314)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56159fa7-f939-4bdb-96ea-f1bfbb13f75e")
+		(uuid "4fe8bb98-d313-44b3-bac8-7bcbd1af3866")
 	)
 	(wire
 		(pts
@@ -1323,16 +1794,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 61.976) (xy 96.52 56.896)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63610ee6-a715-4483-b633-1aa030270afa")
-	)
-	(wire
-		(pts
 			(xy 163.322 95.504) (xy 163.322 99.314)
 		)
 		(stroke
@@ -1340,6 +1801,16 @@
 			(type default)
 		)
 		(uuid "63f20682-5b28-415f-8b71-0655520bf45d")
+	)
+	(wire
+		(pts
+			(xy 93.726 62.23) (xy 107.95 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6486db46-be8a-4ced-8c26-1b297b2cf9d5")
 	)
 	(wire
 		(pts
@@ -1403,6 +1874,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.282 57.15) (xy 97.282 86.868)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a46ee2f-c92d-4ddc-a646-10471ac2086e")
+	)
+	(wire
+		(pts
 			(xy 146.812 96.774) (xy 146.812 123.444)
 		)
 		(stroke
@@ -1453,7 +1934,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.892 80.264) (xy 151.892 85.344)
+			(xy 151.892 83.312) (xy 151.892 85.344)
 		)
 		(stroke
 			(width 0)
@@ -1503,6 +1984,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.852 78.232) (xy 93.726 78.232)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae140aa9-3075-47a9-9b88-7ba6a12bfec5")
+	)
+	(wire
+		(pts
 			(xy 97.282 106.934) (xy 108.712 106.934)
 		)
 		(stroke
@@ -1510,16 +2001,6 @@
 			(type default)
 		)
 		(uuid "af9fed57-4126-4989-8858-c9e499b0b2eb")
-	)
-	(wire
-		(pts
-			(xy 96.52 61.976) (xy 96.52 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b399bc8f-5317-4a8e-b561-7293168c54b5")
 	)
 	(wire
 		(pts
@@ -1533,7 +2014,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 59.436) (xy 210.82 99.314)
+			(xy 210.82 62.23) (xy 210.82 99.314)
 		)
 		(stroke
 			(width 0)
@@ -1543,7 +2024,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.918 99.314) (xy 108.712 99.314)
+			(xy 97.282 99.314) (xy 108.712 99.314)
 		)
 		(stroke
 			(width 0)
@@ -1563,6 +2044,26 @@
 	)
 	(wire
 		(pts
+			(xy 85.852 80.772) (xy 88.646 80.772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1a9232f-f03c-4741-b760-31584cba0dad")
+	)
+	(wire
+		(pts
+			(xy 88.646 89.408) (xy 88.646 90.678)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c51353be-eb6a-4aa5-8067-9fce6499b9a7")
+	)
+	(wire
+		(pts
 			(xy 170.942 85.344) (xy 173.482 85.344)
 		)
 		(stroke
@@ -1570,16 +2071,6 @@
 			(type default)
 		)
 		(uuid "c58ec249-2e83-4b4d-860e-6462b2e1e7bb")
-	)
-	(wire
-		(pts
-			(xy 105.918 54.356) (xy 105.918 99.314)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca11e151-0cec-4ec7-9e62-19be9aedd030")
 	)
 	(wire
 		(pts
@@ -1593,6 +2084,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.868 57.15) (xy 97.282 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daebe398-bb22-4de1-b109-69a6e2572e98")
+	)
+	(wire
+		(pts
 			(xy 149.352 99.314) (xy 149.352 120.904)
 		)
 		(stroke
@@ -1600,6 +2101,26 @@
 			(type default)
 		)
 		(uuid "dc3390f2-2866-46a9-afdd-6bb37116d847")
+	)
+	(wire
+		(pts
+			(xy 118.11 62.23) (xy 210.82 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd52058c-6d9d-411e-94e0-253baf62efc6")
+	)
+	(wire
+		(pts
+			(xy 89.662 64.77) (xy 89.662 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1206554-84aa-4915-9616-826fc67c43b0")
 	)
 	(wire
 		(pts
@@ -1613,6 +2134,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.726 62.23) (xy 86.868 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3574bbc-1c07-4366-93f0-e8d134fe2505")
+	)
+	(wire
+		(pts
 			(xy 118.872 114.554) (xy 118.872 115.824)
 		)
 		(stroke
@@ -1620,6 +2151,26 @@
 			(type default)
 		)
 		(uuid "e9bd0d35-ba1d-49c3-a123-e8955a6d97bf")
+	)
+	(wire
+		(pts
+			(xy 89.662 64.77) (xy 89.662 66.294)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed4fa205-6ef7-464a-90dc-bd4e2f97c6ec")
+	)
+	(wire
+		(pts
+			(xy 88.646 80.772) (xy 100.584 80.772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee24b73b-38ca-46bb-8803-e8048ca248c9")
 	)
 	(wire
 		(pts
@@ -1643,7 +2194,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 61.976) (xy 96.52 61.976)
+			(xy 86.868 64.77) (xy 89.662 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1670,16 +2221,6 @@
 			(type default)
 		)
 		(uuid "f8b0ed57-226e-40bc-a507-91e9b28837ce")
-	)
-	(wire
-		(pts
-			(xy 97.282 99.314) (xy 105.918 99.314)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f913a1e2-dcb5-4db5-9c18-2e3a910107f8")
 	)
 	(wire
 		(pts
@@ -1825,7 +2366,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 96.52 66.04 0)
+		(at 89.662 66.294 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1833,7 +2374,7 @@
 		(dnp no)
 		(uuid "2abbfa30-4682-44d5-9621-d11747695d30")
 		(property "Reference" "#PWR06"
-			(at 96.52 71.12 0)
+			(at 89.662 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1842,7 +2383,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 96.393 70.485 0)
+			(at 88.392 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1850,7 +2391,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 67.31 0)
+			(at 89.662 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,7 +2400,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 67.31 0)
+			(at 89.662 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,7 +2409,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 96.52 66.04 0)
+			(at 89.662 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1883,6 +2424,152 @@
 			(project "Backup power switch 12v Module"
 				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/29f10423-18bd-4fec-9bc6-220db9c2d437"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 80.772 78.232 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2eba4c53-2455-4bbd-a3b3-655dca060497")
+		(property "Reference" "J10"
+			(at 76.2 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_SW"
+			(at 74.168 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 80.772 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.772 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 80.772 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "descr" ""
+			(at 80.772 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1beb7089-14a3-4c66-815c-70f0cac36eef")
+		)
+		(pin "1"
+			(uuid "0dd87725-3981-47ba-b68b-bac3d81e6654")
+		)
+		(instances
+			(project ""
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/29f10423-18bd-4fec-9bc6-220db9c2d437"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Transistor_MOSFET_AKL:IRFR5305")
+		(at 94.742 91.948 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e20dda8-0ac8-43ec-8427-9e19b736ae71")
+		(property "Reference" "Q1"
+			(at 101.346 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRFR5305"
+			(at 104.648 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:TO-252-2"
+			(at 99.822 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/03738c7efe85777e48cd9302a286f6fb/irfr5305pbf.pdf"
+			(at 94.742 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TO-252 P-MOSFET enchancement mode transistor, 55V, 31A, 110W, Alternate KiCAD Library"
+			(at 94.742 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8335a787-0d75-4b45-b23e-d9b8684730e5")
+		)
+		(pin "3"
+			(uuid "09d603e6-9998-4bb6-a47b-7808cbd70581")
+		)
+		(pin "2"
+			(uuid "c71e88f2-6d03-4dce-9eef-0adedd2a682e")
+		)
+		(instances
+			(project "Backup power switch 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/29f10423-18bd-4fec-9bc6-220db9c2d437"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -2112,6 +2799,83 @@
 			(project "Charger_3S_w_INA219 "
 				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/29f10423-18bd-4fec-9bc6-220db9c2d437"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.646 85.598 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e68bd08-231a-4fdb-a40b-10457fd29c59")
+		(property "Reference" "R1"
+			(at 91.186 84.3279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 91.186 86.8679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 86.868 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.646 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.646 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "descr" ""
+			(at 88.646 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d0714cb-6451-4a27-926b-f4df539c30f2")
+		)
+		(pin "2"
+			(uuid "34fe9e4b-83ab-4804-9a7e-f03cd5cdeb14")
+		)
+		(instances
+			(project "Backup power switch 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/29f10423-18bd-4fec-9bc6-220db9c2d437"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2413,7 +3177,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 151.892 80.264 0)
+		(at 151.892 83.312 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2422,7 +3186,7 @@
 		(fields_autoplaced yes)
 		(uuid "935cab77-668d-4d8a-8339-3f487eb69434")
 		(property "Reference" "#PWR01"
-			(at 151.892 84.074 0)
+			(at 151.892 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,7 +3195,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 151.892 75.184 0)
+			(at 151.892 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,7 +3203,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.892 80.264 0)
+			(at 151.892 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2448,7 +3212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.892 80.264 0)
+			(at 151.892 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2457,7 +3221,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 151.892 80.264 0)
+			(at 151.892 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,6 +3236,76 @@
 			(project "Charger_3S_w_INA219 "
 				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/29f10423-18bd-4fec-9bc6-220db9c2d437"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Transistor_MOSFET_AKL:IRFR5305")
+		(at 113.03 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "965f4d9b-8780-4287-bc61-a04b234b3238")
+		(property "Reference" "Q4"
+			(at 118.618 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRFR5305"
+			(at 121.92 65.532 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:TO-252-2"
+			(at 115.57 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/03738c7efe85777e48cd9302a286f6fb/irfr5305pbf.pdf"
+			(at 113.03 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TO-252 P-MOSFET enchancement mode transistor, 55V, 31A, 110W, Alternate KiCAD Library"
+			(at 113.03 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa1764e8-9403-4a15-b4e3-b3d71f791fd1")
+		)
+		(pin "3"
+			(uuid "6dddb851-e083-4f3d-860a-961b898332cf")
+		)
+		(pin "2"
+			(uuid "d8393dac-342e-43b4-812f-3a7547c21e61")
+		)
+		(instances
+			(project "Backup power switch 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/29f10423-18bd-4fec-9bc6-220db9c2d437"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -2560,6 +3394,81 @@
 			(project "Charger_3S_w_INA219 "
 				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/29f10423-18bd-4fec-9bc6-220db9c2d437"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 104.394 80.772 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c13a34ec-0872-4b47-b609-109cc78d92af")
+		(property "Reference" "R3"
+			(at 104.394 74.676 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 104.394 77.216 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 104.394 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.394 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.394 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "descr" ""
+			(at 104.394 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbc13d30-d912-4306-a014-e1a7372a0c6b")
+		)
+		(pin "2"
+			(uuid "179433a4-5448-4049-b329-2558158d9bb7")
+		)
+		(instances
+			(project "Backup power switch 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/29f10423-18bd-4fec-9bc6-220db9c2d437"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2730,7 +3639,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 88.9 56.896 0)
+		(at 81.788 59.69 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2739,7 +3648,7 @@
 		(dnp no)
 		(uuid "ebcc582b-3051-4705-abc0-7bd3fce5f4e1")
 		(property "Reference" "J1"
-			(at 86.614 56.8959 0)
+			(at 79.502 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,7 +3657,7 @@
 			)
 		)
 		(property "Value" "BAT/PWR IN"
-			(at 86.614 59.4359 0)
+			(at 79.502 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2757,7 +3666,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Local:ScrewTerminal_KF7.62_4P"
-			(at 88.9 56.896 0)
+			(at 81.788 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2766,7 +3675,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 56.896 0)
+			(at 81.788 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2775,7 +3684,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 88.9 56.896 0)
+			(at 81.788 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2784,7 +3693,7 @@
 			)
 		)
 		(property "descr" ""
-			(at 88.9 56.896 0)
+			(at 81.788 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
