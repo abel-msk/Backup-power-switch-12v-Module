@@ -845,8 +845,11 @@
         "uuid": "7ca50d0f-f559-49b7-8c40-8a0dd824c105"
       }
     ],
-    "used_designators": "D8",
+    "used_designators": "TP5-8,D8-9",
     "variants": [
+      {
+        "name": "Double Diod"
+      },
       {
         "description": "Separate bypass diodes",
         "name": "rev 02"
