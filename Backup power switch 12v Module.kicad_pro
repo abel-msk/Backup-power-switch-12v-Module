@@ -845,8 +845,13 @@
         "uuid": "7ca50d0f-f559-49b7-8c40-8a0dd824c105"
       }
     ],
-    "used_designators": "",
-    "variants": []
+    "used_designators": "D8",
+    "variants": [
+      {
+        "description": "Separate bypass diodes",
+        "name": "rev 02"
+      }
+    ]
   },
   "sheets": [
     [

@@ -5,3 +5,5 @@
 **/*.zip
 *.lck
 pcbway_production/
+~*
+.history/

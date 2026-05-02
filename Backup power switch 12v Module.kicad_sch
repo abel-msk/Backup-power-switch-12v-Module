@@ -3140,7 +3140,7 @@
 		)
 		(uuid "4a2eee4b-42a1-4cc3-a95d-2522cdc3d7fc")
 	)
-	(text "To contriller\nsensors\n\n"
+	(text "To controller\nsensors\n\n"
 		(exclude_from_sim no)
 		(at 35.306 61.976 0)
 		(effects
@@ -5514,7 +5514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 218.186 77.978 0)
 			(hide yes)
 			(show_name no)
@@ -5539,6 +5539,16 @@
 		(property "Description" ""
 			(at 218.186 77.978 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "descr" ""
+			(at 218.186 77.978 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5768,7 +5778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 215.392 143.256 0)
 			(hide yes)
 			(show_name no)
@@ -6187,6 +6197,97 @@
 			(project "Backup power switch 12v Module"
 				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 202.692 22.098 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "485f666d-30b6-48fd-8c77-9b5881bc5fff")
+		(property "Reference" "D8"
+			(at 201.168 19.304 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4007W (A7)"
+			(at 207.01 24.892 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 202.692 22.098 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 202.692 22.098 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 202.692 22.098 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "descr" ""
+			(at 202.692 22.098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6bf0025-b3b1-4e2a-9cbe-1027c9712152")
+		)
+		(pin "2"
+			(uuid "a8b2186b-dd29-44ec-8228-f595a4da696d")
+		)
+		(instances
+			(project "Backup power switch 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105"
+					(reference "D8")
 					(unit 1)
 				)
 			)
