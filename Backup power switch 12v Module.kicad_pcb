@@ -15249,7 +15249,7 @@
 		(property "Reference" "D7"
 			(at 2.4892 -0.4267 0)
 			(layer "F.SilkS")
-			(uuid "3cf49c17-fe3f-477d-bec2-47ae4cd71299")
+			(uuid "fbde5dc3-cf1f-462a-a03d-0e1c2b95d037")
 			(effects
 				(font
 					(size 1 1)
@@ -15260,7 +15260,7 @@
 		(property "Value" "MURF2060CT"
 			(at -2.4384 2.4384 180)
 			(layer "F.Fab")
-			(uuid "ee3ee88e-7791-4300-ae46-a0ab287d1586")
+			(uuid "146d97f6-5476-4320-9011-08acb1fddeac")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -15272,7 +15272,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a3711b3f-2c60-4545-a655-ec10621eb8fe")
+			(uuid "c0fa86e1-0aa8-44ba-946f-6744c51d73c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15284,7 +15284,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "990aac33-e997-432b-8814-472e5f329db0")
+			(uuid "ea38c21d-a01a-4cf5-8dcd-27c21c65ceff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15602,7 +15602,7 @@
 			(uuid "79f088f0-af5a-4cdd-a7dd-491e5421a0b7")
 		)
 		(embedded_fonts no)
-		(model "TO-220-3_Staggered_Vertical"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15997,6 +15997,30 @@
 			)
 		)
 	)
+	(gr_poly
+		(pts
+			(xy 156.63114 97.231332) (xy 156.63114 100.787332) (xy 159.67914 99.009332)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3e5912aa-17e6-4d2e-b752-07f5d32c64ab")
+	)
+	(gr_poly
+		(pts
+			(xy 157.099 110.363) (xy 157.099 113.919) (xy 160.147 112.141)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e0c4e784-15b2-4203-a9ff-8d198c87ffbe")
+	)
 	(gr_line
 		(start 141.986 102.362)
 		(end 149.098 102.362)
@@ -16016,6 +16040,48 @@
 		)
 		(layer "F.SilkS")
 		(uuid "6c04860a-ae5d-4cae-9696-102af2350afd")
+	)
+	(gr_line
+		(start 153.162 99.06)
+		(end 167.005 99.009332)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6839b8d6-4498-4b5d-bc20-a3e8c6d075c0")
+	)
+	(gr_line
+		(start 153.797 112.141)
+		(end 167.513 112.141)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b791b449-b0e7-44aa-a014-3322d08df297")
+	)
+	(gr_rect
+		(start 159.67914 97.294832)
+		(end 159.93314 100.723832)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "9f445bdc-756b-4002-87c3-b70f25ce671d")
+	)
+	(gr_rect
+		(start 160.147 110.4265)
+		(end 160.401 113.8555)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "355335cb-b251-431e-87b0-449b19cecf26")
 	)
 	(gr_rect
 		(start 89.2212 58.445886)
@@ -16116,6 +16182,30 @@
 		(at 95.4532 92.71 0)
 		(layer "F.SilkS")
 		(uuid "2692d1c8-56ce-4824-b8ad-e4c1f3c0bebe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Alt D7"
+		(at 161.29 111.76 0)
+		(layer "F.SilkS")
+		(uuid "95b1729c-186b-4fc9-975f-f021f95af4c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Alt D7"
+		(at 161.417 100.33 0)
+		(layer "F.SilkS")
+		(uuid "b100c534-69d7-4d50-b884-49e96432291f")
 		(effects
 			(font
 				(size 1 1)
@@ -25166,6 +25256,12 @@
 				(xy 90.018026 62.912297) (xy 89.9795 63.303471) (xy 89.7217 63.303471) (xy 89.7217 59.070386) (xy 89.741385 59.003347)
 				(xy 89.794189 58.957592) (xy 89.8457 58.946386) (xy 114.440311 58.946386)
 			)
+		)
+	)
+	(group ""
+		(uuid "3b8eb89f-1ccc-4944-ac1d-a5248ae1fd67")
+		(members "355335cb-b251-431e-87b0-449b19cecf26" "b791b449-b0e7-44aa-a014-3322d08df297"
+			"e0c4e784-15b2-4203-a9ff-8d198c87ffbe"
 		)
 	)
 	(embedded_fonts no)
