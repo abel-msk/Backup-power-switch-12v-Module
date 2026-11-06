@@ -3260,9 +3260,9 @@
 		)
 		(uuid "536b143a-ce2f-4774-b2d4-8771eb5c8bc2")
 	)
-	(text "D7 (MBRF3045CT): \nheatsink required \nfor continuous load via diode\n(~0.55 V drop: 4-5.5 W at 8-10 A). \nNeed <= 10 C/W heatsink."
+	(text "D7 (MBRF3045CT):  heatsink required \nfor continuous load via diode\n(~0.55 V drop: 4-5.5 W at 8-10 A). Need <= 10 C/W heatsink."
 		(exclude_from_sim no)
-		(at 218.948 33.528 0)
+		(at 210.566 87.884 0)
 		(effects
 			(font
 				(size 1.27 1.27)

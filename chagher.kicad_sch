@@ -4299,7 +4299,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9169df45-dae2-488e-b1bf-c8bd43452d23")
 		(property "Reference" "D1"
@@ -4843,7 +4843,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ff9e990e-7e29-4027-9e13-cbd36331bab5")
 		(property "Reference" "U5"
