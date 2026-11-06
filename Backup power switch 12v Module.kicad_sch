@@ -5668,8 +5668,8 @@
 			)
 		)
 	)
-	(global_label "SS"
-		(shape output)
+	(global_label "DONE_SIG"
+		(shape input)
 		(at 92.964 163.576 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5884,8 +5884,8 @@
 			)
 		)
 	)
-	(global_label "DONE_SIG"
-		(shape input)
+	(global_label "SS"
+		(shape output)
 		(at 125.73 155.956 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9994,207 +9994,6 @@
 			)
 		)
 	)
-	(global_label "SS"
-		(shape output)
-		(at 74.93 176.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "39ece6fc-5f98-4217-bae1-de3f309a976d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.93 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 74.93 176.53) (xy 77.47 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0421613d-f0cb-42cd-bd4b-5f7677e1a3dc")
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 80.01 176.53 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b95cc2f1-8e15-4cd0-aed0-b7c73fe1bbde")
-		(property "Reference" "R20"
-			(at 80.01 174.244 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 80.01 178.816 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 80.01 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ebbdc4d2-8a61-46f5-9509-6dd9e032cc87")
-		)
-		(pin "2"
-			(uuid "f7fc0e5a-62e5-48a7-b3d7-474bd0327180")
-		)
-		(instances
-			(project "Backup power switch 12v Module"
-				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 82.55 176.53) (xy 88.9 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09ccc53a-92a7-4125-ba3b-8431cb701d47")
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 88.9 176.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "b8b4ca91-8b18-4578-af9d-40b52432c069")
-		(property "Reference" "#PWR034"
-			(at 88.9 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 88.9 172.974 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b65e051f-7c75-41b3-882b-9b5dd6e0df65")
-		)
-		(instances
-			(project "Backup power switch 12v Module"
-				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-
 	(sheet_instances
 		(path "/"
 			(page "1")
